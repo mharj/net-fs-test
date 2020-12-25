@@ -1,0 +1,36 @@
+{
+    "name": "net-fs-test",
+    "version": "0.0.1",
+    "description": "Testing network fs",
+    "main": "./dist/index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^14.14.16",
+        "@typescript-eslint/eslint-plugin": "^3.0.1",
+        "@typescript-eslint/parser": "^3.0.1",
+        "eslint": "^7.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.3",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "prettier": "^2.0.5",
+        "typescript": "^4.1.3"
+    },
+    "scripts": {
+        "test": "mocha",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mharj/net-fs-test.git"
+    },
+    "author": "mharj",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mharj/net-fs-test/issues"
+    },
+    "homepage": "https://github.com/mharj/net-fs-test#readme"
+}
